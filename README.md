@@ -37,6 +37,7 @@ sleep-wake-detection/
 ├── assets/
 │   ├── accelerometer.png               # Example accelerometer feature visualization
 │   └── gyroscope.png                   # Example gyroscope feature visualization
+│   └── predicted_probabilities.png     # Predicted probability comparison figure
 │
 └── README.md
 ```
@@ -146,6 +147,25 @@ Includes:
 - Feature importance analysis:
   - Random Forest feature importance
   - XGBoost gain-based feature importance
+
+---
+
+## 📈 Predicted vs Actual Sleep–Wake Timeline
+
+The plot below illustrates the **model-predicted sleep/wake probability** versus the **actual class labels** for three subjects.  
+This visualization highlights how well the classifier tracks transitions between sleep and wake across time.
+
+<p align="center">
+  <img src="assets/predicted_probabilities.png" alt="Predicted vs Actual Sleep-Wake Timeline" width="90%">
+</p>
+
+Each subplot shows:
+
+- **Predicted probability** (blue curve)
+- **Actual class** (red dashed line)
+- **Continuous time (hours)** on the x-axis
+
+This comparison helps evaluate temporal consistency and misclassification patterns across subjects.
 
 ---
 
