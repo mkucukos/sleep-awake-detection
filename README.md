@@ -134,13 +134,18 @@ Includes:
 
 - Train/validation/test splits  
 - Feature scaling and normalization  
-- Model training (ML or neural networks)  
+- Model training using:
+  - **Logistic Regression**
+  - **Random Forest Classifier**
+  - **XGBoost Classifier**
 - Model evaluation metrics:
   - Accuracy
   - F1-score
   - ROC-AUC
 - Confusion matrix visualization  
-- Feature importance (Random Forest / XGBoost)  
+- Feature importance analysis:
+  - Random Forest feature importance
+  - XGBoost gain-based feature importance
 
 ---
 
