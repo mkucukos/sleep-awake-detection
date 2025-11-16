@@ -1,4 +1,4 @@
-# 🚀 Sleep–Wake Detection using Multimodal Wearable Sensors
+# Sleep–Wake Detection using Multimodal Wearable Sensors
 
 This repository contains a complete **multimodal sleep–wake detection pipeline** using physiological and motion sensor data. It includes **preprocessing**, **feature extraction**, and **model training** for classifying sleep and wake states using LED/PPG, accelerometer, gyroscope, and temperature signals.
 
@@ -15,7 +15,7 @@ The project is organized into Jupyter notebooks for workflow transparency and a 
   pip install -r requirements.txt
 
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```bash
 sleep-wake-detection/
@@ -82,7 +82,7 @@ Includes sensor-specific pipelines:
 
 ---
 
-### 🟩 2. Feature Extraction (`utils/`)
+### 2. Feature Extraction (`utils/`)
 
 - **Statistical time-domain features**
   - mean, std, variance, skewness, kurtosis
@@ -103,11 +103,11 @@ Includes sensor-specific pipelines:
   - Low/high-pass smoothing
   - Noise conditioning
 
-## 📊 Example Labeled Feature Visualizations
+##  Example Labeled Feature Visualizations
 
 Below are two examples of **window-level features** generated from the accelerometer and gyroscope sensors, with points color-coded by the sleep/wake target label.
 
-### 1️⃣ Accelerometer Feature Example — RMS AUC
+### Accelerometer Feature Example — RMS AUC
 
 This visualization shows how **Accelerometer X RMS AUC** highlights motion bursts during wake periods (red), while sleep periods (blue) remain close to zero.
 
@@ -144,12 +144,12 @@ Includes:
 
 ---
 
-## 📦 Installation
+## Installation
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/sleep-wake-detection.git
+git clone https://github.com/mkucukos/sleep-awake-detection.git
 cd sleep-wake-detection
 ```
 
