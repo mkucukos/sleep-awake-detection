@@ -150,7 +150,7 @@ Includes:
 
 ---
 
-## 📈 Predicted vs Actual Sleep–Wake Timeline
+##  Predicted vs Actual Sleep–Wake Timeline
 
 The plot below illustrates the **model-predicted sleep/wake probability** versus the **actual class labels** for three subjects.  
 This visualization highlights how well the classifier tracks transitions between sleep and wake across time.
