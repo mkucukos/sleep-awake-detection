@@ -61,7 +61,7 @@ The pipeline is fully modular and can be adapted to different datasets or device
 
 ## 🔧 Core Functionalities
 
-### 🟦 1. Multimodal Preprocessing (`utils/multimodal/`)
+### 1. Multimodal Preprocessing (`utils/multimodal/`)
 
 Includes sensor-specific pipelines:
 
@@ -128,7 +128,7 @@ Blue points indicate sleep windows with minimal variability.
 
 ---
 
-### 🟥 3. Sleep–Wake Classification (`02_model.ipynb`)
+### 3. Sleep–Wake Classification (`02_model.ipynb`)
 
 Includes:
 
